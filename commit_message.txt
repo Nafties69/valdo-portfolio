@@ -1,1 +1,1 @@
-feat: implement basic fairy scene editor
+feat: implement metadata pack hub with previews

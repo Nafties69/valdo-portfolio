@@ -1,2 +1,4 @@
-name,version,data
-Nature Pack,1.0,
+name,version,description,data
+Nature Pack,1.0,"Metadata for various natural elements like plants and animals.","id,name,type
+1,Oak Tree,plant
+2,Wolf,animal"
