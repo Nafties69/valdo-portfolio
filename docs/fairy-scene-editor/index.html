@@ -11,6 +11,13 @@
         <h1>Fairy Scene Editor</h1>
     </header>
     <main>
+        <div class="editor-controls">
+            <button onclick="setObjectType('fairy')">Add Fairy</button>
+            <button onclick="setObjectType('tree')">Add Tree</button>
+            <button onclick="aiEnhance()">AI Enhance</button>
+            <button onclick="clearCanvas()">Clear</button>
+            <button onclick="exportScene()">Export</button>
+        </div>
         <div id="canvas-container"></div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
         <script src="script.js"></script>
