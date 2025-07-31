@@ -1,4 +1,6 @@
-const images = [
+fetch('images.json')
+    .then(response => response.json())
+    .then(images => {
   {
     "src": "https://via.placeholder.com/250?text=Enriched+Image+1",
     "title": "A Rhino on a Field",
@@ -105,3 +107,4 @@ imageGrid.addEventListener('click', (e) => {
 closeBtn.addEventListener('click', () => {
     lightbox.style.display = 'none';
 });
+    });
