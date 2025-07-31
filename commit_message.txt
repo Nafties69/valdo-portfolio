@@ -1,1 +1,1 @@
-feat: implement metadata pack hub with previews
+feat: improve styling and responsiveness
