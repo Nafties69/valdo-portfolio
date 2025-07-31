@@ -88,3 +88,20 @@ filterImages();
 
 searchInput.addEventListener('input', filterImages);
 keywordFilter.addEventListener('change', filterImages);
+
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+const captionText = document.getElementById('caption');
+const closeBtn = document.querySelector('.close');
+
+imageGrid.addEventListener('click', (e) => {
+    if (e.target.tagName === 'IMG') {
+        lightbox.style.display = 'block';
+        lightboxImg.src = e.target.src;
+        captionText.innerHTML = e.target.alt;
+    }
+});
+
+closeBtn.addEventListener('click', () => {
+    lightbox.style.display = 'none';
+});
