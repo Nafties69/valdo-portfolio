@@ -1,1 +1,1 @@
-feat: add placeholder fairy scene editor
+feat: add downloadable metadata packs
